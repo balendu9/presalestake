@@ -2,7 +2,7 @@ import React from "react";
 
 const ButtonCmp = ({name, tab, styleClass}) => {
   return (
-    <li className={"nav-items"} role="presentation">
+    <li className={"nav-item"} role="presentation">
       <button
         className={`${styleClass}`}
         data-bs-toggle="tab"
