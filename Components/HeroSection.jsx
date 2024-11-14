@@ -86,7 +86,7 @@ const HeroSection = ( { addTokenMetaMask } ) => {
                     <i className="ti">
                       <TiTick />
                     </i> 
-                    <b>{tokenDetails?.supply} {tokenDetails?.sy}</b> Total Supply
+                    <b>{tokenDetails?.supply} {tokenDetails?.symbol}</b>{" "} Total Supply
                   </li>
                 </ul>
 
