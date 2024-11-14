@@ -3,6 +3,11 @@
 @import url("../public/css/main.css");
 
 /* //LOADER */
+
+.body-backgroundColor {
+  background-color: #17142a;
+}
+
 .new-loader-wrapper {
   position: fixed;
   top: 0;

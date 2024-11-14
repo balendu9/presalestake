@@ -54,7 +54,7 @@ const index = () => {
 
 
   return (
-    <>
+    <div className="body-backgroundColor">
       <Header />
       <HeroSection 
         poolDetails={poolDetails}
@@ -90,7 +90,7 @@ const index = () => {
 
       {contactUs && <Contact setContactUs={setContactUs} />}
       {loader && <Loader />}
-    </>
+    </div>
   )
 };
 

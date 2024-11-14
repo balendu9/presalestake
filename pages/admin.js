@@ -48,7 +48,7 @@ const admin = () => {
 
 
   return (
-    <>
+    <div className="body-backgroundColor">
       <Header  page = {"admin"}/>
       <AdminHead />
       <Admin 
@@ -73,7 +73,7 @@ const admin = () => {
       
       {checkAdmin && <Auth />}
       {loader && <Loader />}
-    </>
+    </div>
   )
 };
 

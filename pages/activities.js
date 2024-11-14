@@ -30,7 +30,7 @@ const activities = () => {
   
 
   return (
-    <>
+    <div className="body-backgroundColor">
       <Header page={"activity"} />
       <div className="new-margin"></div>
       <Statistics poolDetails={poolDetails} />
@@ -38,7 +38,7 @@ const activities = () => {
       <Footer/>
       <ICOSale setLoader={setLoader} />
       {loader && <Loader />}
-    </>
+    </div>
   )
 };
 
